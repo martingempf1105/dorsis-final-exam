@@ -1,33 +1,28 @@
-# dorsis final exam
+# Dorsi's final exam
 
-A [libGDX](https://libgdx.com/) project generated with [gdx-liftoff](https://github.com/libgdx/gdx-liftoff).
+## 👥 Integrantes del Grupo
+* **Martin Werner Gempf** (Computación)
 
-This project was generated with a template including simple application launchers and an `ApplicationAdapter` extension that draws libGDX logo.
+## 📝 Descripción Corta del Juego
+**Dorsi's final exam** será un videojuego 2D lateral de acción y plataformas centrado en combates contra jefes (Boss Rush), inspirado en la estructura y dificultad de títulos como Cuphead. El proyecto traslada la dinámica de enfrentamientos de alta complejidad a una ambientación escolar técnica, donde cada nivel representará una materia, taller o sector icónico de la institución. El jugador deberá memorizar y esquivar intrincados patrones de ataque, calcular saltos con precisión, administrar recursos limitados y utilizar un arsenal de armas y runas desbloqueables para enfrentarse a jefes temáticos basados en elementos cotidianos de las especialidades de Computación y Automotor.
 
-## Platforms
+## 🛠️ Tecnologías Utilizadas
+* **Librería/Framework:** LibGDX
+* **Lenguaje:** Java (Versión 17)
+* **Entorno de Desarrollo (IDE):** Eclipse
+* **Persistencia de Datos:** Base de datos SQL local (SQLite) mediante la API JDBC
+* **Control de Versiones:** Git y GitHub
+* **Plataformas Objetivo:** Escritorio (Desktop mediante LWJGL3)
 
-- `core`: Main module with the application logic shared by all platforms.
-- `lwjgl3`: Primary desktop platform using LWJGL3; was called 'desktop' in older docs.
+## 🚀 Cómo Compilar y Ejecutar
 
-## Gradle
+### Requisitos previos
+* Tener instalado **Java 17** (JDK 17) o superior.
 
-This project uses [Gradle](https://gradle.org/) to manage dependencies.
-The Gradle wrapper was included, so you can run Gradle tasks using `gradlew.bat` or `./gradlew` commands.
-Useful Gradle tasks and flags:
-
-- `--continue`: when using this flag, errors will not stop the tasks from running.
-- `--daemon`: thanks to this flag, Gradle daemon will be used to run chosen tasks.
-- `--offline`: when using this flag, cached dependency archives will be used.
-- `--refresh-dependencies`: this flag forces validation of all dependencies. Useful for snapshot versions.
-- `build`: builds sources and archives of every project.
-- `cleanEclipse`: removes Eclipse project data.
-- `cleanIdea`: removes IntelliJ project data.
-- `clean`: removes `build` folders, which store compiled classes and built archives.
-- `eclipse`: generates Eclipse project data.
-- `idea`: generates IntelliJ project data.
-- `lwjgl3:jar`: builds application's runnable jar, which can be found at `lwjgl3/build/libs`.
-- `lwjgl3:run`: starts the application.
-- `test`: runs unit tests (if any).
-
-Note that most tasks that are not specific to a single project can be run with `name:` prefix, where the `name` should be replaced with the ID of a specific project.
-For example, `core:clean` removes `build` folder only from the `core` project.
+### Instrucciones para correr el juego:
+1. Cloná este repositorio en tu máquina local mediante el comando:
+   ```bash
+   git clone [https://github.com/martingempf1105/dorsis-final-exam.git](https://github.com/martingempf1105/dorsis-final-exam.git)
+###   Estado actual del juego
+el juego esta recien en desarollo, viendo que fondos, arte y dibujo(sprites) podria implementarse en el juego ademas del armado de codigo y las funciones correspondientes, se esta 
+esperando implementar sonido/musica el cual acompañe en el desarollo del jego segun el contexto el cual se encuentre
