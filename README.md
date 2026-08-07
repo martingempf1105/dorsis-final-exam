@@ -1,6 +1,6 @@
 # Dorsi's final exam
 
-##  Integrantes del Grupo
+##  Integrante
 * **Martin Werner Gempf** (Computación)
 
 ##  Descripción Corta del Juego
